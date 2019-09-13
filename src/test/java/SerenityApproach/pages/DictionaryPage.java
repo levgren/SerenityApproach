@@ -57,7 +57,7 @@ public class DictionaryPage extends PageObject {
 
     public void checkNumberOfLetters(int numOfChars){
         int lengthOfTHeWord = translatedWord.getText().length();
-        Assert.assertEquals("Translated word contains " + numOfChars + " chars", lengthOfTHeWord, numOfChars);
+        Assert.assertEquals("Translated word contains " + numOfChars + " chars", numOfChars, lengthOfTHeWord);
     }
 
     public void checkDefinitionSection(String definition){
