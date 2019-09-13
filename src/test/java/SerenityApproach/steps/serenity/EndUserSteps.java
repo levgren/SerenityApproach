@@ -2,16 +2,10 @@ package SerenityApproach.steps.serenity;
 
 import SerenityApproach.pages.DictionaryPage;
 import net.thucydides.core.annotations.Step;
-import net.thucydides.core.steps.ScenarioSteps;
-import org.yecht.Data;
-
-import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.containsString;
-import static org.hamcrest.Matchers.hasItem;
 
 public class EndUserSteps {
 
-    DictionaryPage dictionaryPage;
+    private DictionaryPage dictionaryPage;
 
     @Step
     public void openGoogleTranslatePage() {
