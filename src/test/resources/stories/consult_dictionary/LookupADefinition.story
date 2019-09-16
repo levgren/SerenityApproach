@@ -7,8 +7,7 @@ I want to look up word definitions
 Scenario: Looking up the translation of 'apple'
 Given the user is on the google translate page
 And selected languages from 'английский' to 'украинский'
-When the user looks up the translation of the word apple
-Then they should see the translation яблуко
+When the user looks up the translation of the word appleThen they should see the translation яблуко
 
 Scenario: Check the number of characters entered
 Given the user is on the google translate page

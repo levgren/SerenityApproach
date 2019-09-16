@@ -5,7 +5,7 @@ import net.thucydides.core.annotations.Step;
 
 public class EndUserSteps {
 
-    private DictionaryPage dictionaryPage;
+    private DictionaryPage dictionaryPage = new DictionaryPage();
 
     @Step
     public void openGoogleTranslatePage() {
